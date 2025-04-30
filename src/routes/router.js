@@ -6,6 +6,7 @@ import SignIn from "../pages/signIn/Signin";
 import SignInSuccess from "../pages/signIn/SignInSuccess";
 import SignUp from "../pages/signUp/SignUp";
 import AuthLayout from "../pages/layout/AuthLayout";
+import Sms from "../pages/signUp/Sms";
 
 const router = createBrowserRouter([
   {
@@ -41,6 +42,10 @@ const router = createBrowserRouter([
     path : "/sign-up",
     element : <SignUp />
   },
+  {
+    path : "/sms",
+    element : <Sms />
+  }
 ])
 
 export default router;
